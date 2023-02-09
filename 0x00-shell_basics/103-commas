@@ -1,2 +1,2 @@
 #!/bin/bash
-list=$(ls -ad */) printf '%s, ' $list echo
+list=$(ls -ad) printf '%s, ' $list
