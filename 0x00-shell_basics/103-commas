@@ -1,2 +1,2 @@
 #!/bin/bash
-list=$(ls -a) printf ('%s, ' list)
+list=$(ls -a) printf "$list"
