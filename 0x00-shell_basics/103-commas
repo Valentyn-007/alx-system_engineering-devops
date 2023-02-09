@@ -1,2 +1,2 @@
 #!/bin/bash"
-$ echo $(echo $(ls -aF) | tr '\n' ', ')
+echo $(echo $(ls -aF) | tr '\n' ', ')
