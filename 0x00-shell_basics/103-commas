@@ -1,2 +1,2 @@
 #!/bin/bash"
-contents=$(ls -aF) contents=$(echo $contents | tr '\n' ',') echo $contents
+ls -aF
